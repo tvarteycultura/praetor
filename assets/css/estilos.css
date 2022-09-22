@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.linea{
+  background: #896b6b;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+
+body {
+  margin: 0px;
+  font-family: 'Open Sans',
+  sans-serif;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  text-align: justify;
+}
+
+
+
+/* barra de Navegación*/
+nav.navbar {
+  background-color: #000000;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans',
+  sans-serif;
+  color: white;
+
+}
+
+.nav-item {
+  color: white;
+ 
+}
+.img-responsive {
+  top: 12px;
+  left: 40px;
+  width: 300px;
+  height: 75px;
+}
+
+/* fin navbar*/
+
+
+/* Card*/
+.card-body{
+  background-color: #303333;
+}
+
+#vuelo{
+  background-color: #303333;
+  padding-left: 175px;
+
+}
+/*Fin Card*
+
+
+
+/* form*/
+#contacto{
+  align-items: center;
+}
+
+#button{
+  background-color: #349ca7;
+}
+/*fin Form*/
+
+
+.container-fluid {
+  background-color: #000000;
+}
+
+/*Footer*/
+#footer{background-color: #000000;}
+i{
+  color: rgb(255, 255, 255);
+  
+}
+
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 40px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+}
+.galeria > a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.galeria img{
+  width: 100%;
+  vertical-align: top;
+  height: 300px;
+  object-fit: cover;
+}
+
+.galeria a:hover img{
+  filter:blur(2px)
+}
